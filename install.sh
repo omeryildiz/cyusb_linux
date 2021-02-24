@@ -47,7 +47,8 @@ echo "" >> /etc/profile
 
 # Compile and install the cyusb_linux application.
 cd $CURDIR/gui_src/
-qmake-qt4 
+/usr/bin/uic controlcenter.ui -o ui_controlcenter.h
+qmake
 make clean
 make
 cp $CURDIR/bin/cyusb_linux /usr/local/bin
