@@ -22,6 +22,6 @@ ControlCenter::ControlCenter(QWidget *parent) : QWidget(parent)
 	list.clear();
 	list << "1" << "2" << "4" << "8" << "16" << "32" << "64" << "128";
 	cb7_numpkts->addItems(list);
-	rb7_enable->setChecked(FALSE); /* disabled by default for maximum performance */
-	rb7_disable->setChecked(TRUE); /* disabled by default for maximum performance */
+	rb7_enable->setChecked(false); /* disabled by default for maximum performance */
+	rb7_disable->setChecked(true); /* disabled by default for maximum performance */
 }
