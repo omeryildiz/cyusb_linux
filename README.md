@@ -8,11 +8,11 @@ Pre-requisites:
     library.
  2. Native gcc/g++ tool-chain and the GNU make utility are required for
     compiling the library and application.
- 3. qt5 is required for building the cyusb_linux GUI application.
+ 3. qt5 is required for building the cyusb_linux GUI application. (apt-get install qt5-default for Ubuntu 20.04)
  4. Tested on Ubuntu 20.04
  5. The pidof command is used by the cyusb_linux application to handle
     hot-plug of USB devices.
-
+ 
 Installation Steps:
 
  1. cd to the main directory where files where extracted and execute 'make'.
